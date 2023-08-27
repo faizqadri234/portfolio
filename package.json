@@ -1,6 +1,7 @@
 {
   "name": "mojo355",
   "version": "0.1.0",
+  "homepage": "https://faizqadri234.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^35.3.2",
@@ -35,7 +36,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "engines": {
     "node": "16.14.0",
@@ -60,6 +63,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "sass": "^1.49.9"
   }
 }
