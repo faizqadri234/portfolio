@@ -64,7 +64,58 @@ const Progress = () => {
     },
   };
 
-  const items = icons?.map((details4) => {
+  const SkillsData = [
+    {
+      id: '1nls2lnasl2',
+      lang_name: 'React Native',
+      icon: "https://img.icons8.com/color/48/null/react-native.png",
+      exp_level: 'Experienced'
+    },
+    {
+      id: '1lnssasl2',
+      lang_name: 'Typescript',
+      icon: "https://avatars.githubusercontent.com/u/46634674?v=4&s=160",
+      exp_level: 'Experienced'
+    },
+    {
+      id: '1lnssassdfsdsl2',
+      lang_name: 'Redux',
+      icon: "https://img.icons8.com/?size=512&id=jD-fJzVguBmw&format=png",
+      exp_level: 'Experienced'
+    },
+    {
+      id: 'alskdhskjhkjdsaflhl',
+      lang_name: 'JavaScript',
+      icon: "https://img.icons8.com/color/48/null/javascript--v1.png",
+      exp_level: 'Experienced'
+    },
+    {
+      id: 'alskasdfdhflkjlkjlhl',
+      lang_name: 'Git',
+      icon: "https://img.icons8.com/color/48/null/git.png",
+      exp_level: 'Experienced'
+    },
+    {
+      id: 'alskdhfslkdjflhl',
+      lang_name: 'React',
+      icon: "https://img.icons8.com/color/48/null/react-native.png",
+      exp_level: 'Intermediate'
+    },
+    {
+      id: 'sdfsdf,msdfsf',
+      lang_name: 'CI/CD',
+      icon: "https://static-00.iconduck.com/assets.00/cicd-icon-510x512-hsx603wg.png",
+      exp_level: 'Experienced'
+    },
+    {
+      id: 'alskdhfdsdfdffasdslkdjflhl',
+      lang_name: 'Jira',
+      icon: "https://wac-cdn.atlassian.com/dam/jcr:e0cedee5-a180-40ad-b7c3-a66d6e60f483/jira-app-adg3.svg?cdnVersion=1124",
+      exp_level: 'Experienced'
+    },
+  ]
+
+  const items = SkillsData?.map((details4) => {
     return (
       <div className="mylang" title={details4.lang_name} key={details4.id}>
         <div className="lang-info">

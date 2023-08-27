@@ -173,16 +173,16 @@
   font-size: 13px;
 }
 .mylang .Junior {
-  color: #eb997c !important;
+  color: #d29e8c !important;
 }
 .mylang .Beginner {
   color: #e6cc79 !important;
 }
 .mylang .Intermediate {
-  color: #c774b9 !important;
+  color: #915290 !important;
 }
 .mylang .Experienced {
-  color: #dd83dd !important;
+  color: #83ddac !important;
 }
 /* responsive */
 @media only screen and (max-width: 768px) {

@@ -5,6 +5,38 @@ import "./Intro.css";
 import { useGetHomeDetailsQuery } from "../../Api/api";
 import { useGetSocialMediaQuery } from "../../Api/api";
 
+const IntroData = [
+  {
+    id: '123114234235',
+    job_title: 'Software Engineer',
+    name: 'Muhammad Faiz',
+    par_inro: 'I am a React Native Developer',
+    hireMe_link: 'faizqadri234@gmail.com'
+  }
+]
+const SocialData = [
+  {
+    id: '1sljd1,mns',
+    link: 'https://github.com/faizqadri234',
+    social_icon: 'fa fa-github'
+  },
+  {
+    id: '1sljd1123,mns',
+    link: "https://api.whatsapp.com/send?phone=+923244381861&text=Hello%20there,%20I%20hope%20you're%20doing%20well!",
+    social_icon: 'bx bxl-whatsapp'
+  },
+  {
+    id: '1sljd1,ssffmns',
+    link: 'https://www.linkedin.com/in/muhammad-faiz-9780b2158/',
+    social_icon: 'bx bxl-linkedin'
+  },
+  {
+    id: '1sljasdd1,mns',
+    link: 'https://www.instagram.com/faiz_qadri_2/',
+    social_icon: 'fa fa-instagram'
+  }
+]
+
 const Intro = () => {
   const { data: conta } = useGetSocialMediaQuery();
 
@@ -25,8 +57,8 @@ const Intro = () => {
 
   return (
     <>
-      {homeDetails &&
-        homeDetails.map((detail) => (
+      {IntroData &&
+        IntroData.map((detail) => (
           <section className=" intro-page" id="home" key={detail.id}>
             <div className="decorations">
               <div className="decor-dot2">
@@ -90,8 +122,8 @@ const Intro = () => {
                     <span>Follow Me:</span>
                     <ul>
                       <li>
-                        {contacts1Details &&
-                          contacts1Details.map((data1) => (
+                        {SocialData &&
+                          SocialData.map((data1) => (
                             <a
                               href={data1.link}
                               className="icon-link"
@@ -118,7 +150,7 @@ const Intro = () => {
                     /> */}
                     <img
                       className="intro-img"
-                      src={`${img_300}${detail.avatar_img}`}
+                      src={`http://drive.google.com/uc?id=1iyVyaGyw5HniEugxd1-qZ54rpFpn2UTc`}
                       alt=""
                     />
                   </div>

@@ -6,6 +6,8 @@
     "@ckeditor/ckeditor5-build-classic": "^35.3.2",
     "@ckeditor/ckeditor5-react": "^5.0.3",
     "@emailjs/browser": "^3.10.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.6",
     "@reduxjs/toolkit": "^1.8.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",

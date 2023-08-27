@@ -134,6 +134,7 @@
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none !important;
+  line-height: 1.5; /* You can adjust this value as needed */
 }
 .ck-editor__top {
   display: none !important;

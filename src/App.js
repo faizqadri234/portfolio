@@ -47,7 +47,7 @@ function App() {
         <Services />
         <Progress />
         <Projects />
-        <ContactMe />
+        {/* <ContactMe /> */}
         <Email />
         <Footer />
       </BrowserRouter>

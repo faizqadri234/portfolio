@@ -34,14 +34,14 @@ const Footer = () => {
             </svg>
             <i class="bx bx-chevron-up"></i>
           </div>
-          <div className="footer-info">
+          {/* <div className="footer-info">
             <div className="copywrite">
               <p>
                 © {new Date().getFullYear()} All rights reserved | Made with ❤️
-                by James Waweru
+                by Muhammad Faiz
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

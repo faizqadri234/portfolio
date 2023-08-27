@@ -5,6 +5,15 @@ import decor1 from "../../images/decoration/dots-1.png";
 import reactagle from "../../images/decoration/Rectangle-7.png";
 import shady from "../../images/decoration/dots.png";
 
+const AboutData = [
+  {
+    id: '2934fnajkshd',
+    title: 'ABOUT ME',
+    title_2: 'Why hire me for your next project?',
+    description_one: "As a skilled and experienced React Native developer, I bring a strong proficiency in creating cross-platform mobile applications that deliver exceptional user experiences. My expertise lies in architecting robust and scalable React Native applications, utilizing best practices and industry standards. I am proficient in leveraging the React Native framework to build intuitive user interfaces. In addition to my technical skills, I possess excellent problem-solving abilities and a passion for staying up-to-date with the latest trends and advancements in mobile app development"
+  }
+]
+
 const AboutMe = () => {
   const { data: aboutData, isFetching } = useGetAboutMeQuery();
   const [aboutMe, setAboutMe] = useState(aboutData);
@@ -23,8 +32,8 @@ const AboutMe = () => {
 
   return (
     <>
-      {aboutMe &&
-        aboutMe.map((details) => (
+      {AboutData &&
+        AboutData.map((details) => (
           <main id="about" key={details.id}>
             <div className="aboutMe-container">
               <div className="about-decor">
@@ -43,7 +52,7 @@ const AboutMe = () => {
                   className=" col-lg-6 col-md-5 col-sm-12 about-img"
                   data-aos="fade-up-right"
                 >
-                  <img src={`${img_300}${details.about_avatar}`} alt="" />
+                  <img src={`https://drive.google.com/uc?id=1B97-7cbBT2HhLUqHh5bvfckaGLsudQmj`} alt="" />
                 </div>
                 <div
                   className=" col-lg-6 col-md-7  col-sm-12 about_myinfo"
@@ -62,10 +71,10 @@ const AboutMe = () => {
                       />
                     </div>
                   </div>
-
+                  <br />
                   <div className="itscv">
                     <a
-                      href="https://drive.google.com/file/d/127RCSy1lUZE2sS8IgkxxPcUqbw1rYMOR/view"
+                      href="https://drive.google.com/file/d/19QbLKhScxhW5qa1GsqIfi5vIw8-UigyW/view"
                       download="RESUME.pdf"
                       target="_blank"
                       rel="noopener noreferrer"

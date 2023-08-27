@@ -18,7 +18,7 @@ const Navbar = () => {
                   src="https://code.google.com/images/developers.png"
                   alt=""
                 />
-                Pro.dev <span className="blink"> _</span>
+                Software Engineer <span className="blink"> _</span>
               </h5>
               <nav className="nav-menu  mainMenu">
                 <ul>
@@ -48,9 +48,9 @@ const Navbar = () => {
                   </li>
                 </ul>
               </nav>
-              <div className="nav-social">
+              {/* <div className="nav-social">
                 <i className="fa fa-github"></i>
-              </div>
+              </div> */}
               <div className="left-btns">
                 <div class=" " id="theme-button2">
                   <input id="toggle" class="toggle" type="checkbox"></input>

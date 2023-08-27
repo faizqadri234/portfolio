@@ -52,7 +52,7 @@
   border-radius: 25px !important;
   padding: 15px;
   transition: 0.5s;
-  height: 220px;
+  height: 280px;
   cursor: pointer;
   transform: scale(1) !important;
 }
@@ -109,6 +109,8 @@
 }
 .work-info {
   font-size: 12px;
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 
 .project {
