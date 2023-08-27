@@ -18,7 +18,7 @@ const Navbar = () => {
                   src="https://code.google.com/images/developers.png"
                   alt=""
                 />
-                Software Engineer <span className="blink"> _</span>
+                Programmer <span className="blink"> _</span>
               </h5>
               <nav className="nav-menu  mainMenu">
                 <ul>
@@ -55,11 +55,11 @@ const Navbar = () => {
                 <div class=" " id="theme-button2">
                   <input id="toggle" class="toggle" type="checkbox"></input>
                 </div>
-                <div>
+                {/* <div>
                   <div className="CvMe">
                     <button className="my-cv">Contact Me</button>
                   </div>
-                </div>
+                </div> */}
 
                 <div className=" " id="theme-button">
                   <Link to="#" class="menuBtn">

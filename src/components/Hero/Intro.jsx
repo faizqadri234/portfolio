@@ -10,7 +10,7 @@ const IntroData = [
     id: '123114234235',
     job_title: 'Software Engineer',
     name: 'Muhammad Faiz',
-    par_inro: 'I am a React Native Developer',
+    par_inro: 'I really enjoy coding and am passionate about programming. Professionally, I work as a React Native and React JS developer',
     hireMe_link: 'faizqadri234@gmail.com'
   }
 ]

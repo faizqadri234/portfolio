@@ -3,7 +3,7 @@
   color: var(--color-info-light);
   max-width: 1400px;
   padding: 20px 50px;
-  background: #14042b;
+  /* background: #14042b; */
 }
 .footer-info {
   display: flex;
@@ -163,7 +163,7 @@
 
 /* light theme */
 .light .my-footer {
-  background: #5414ac;
+  /* background: #5414ac; */
   color: #fff !important;
 }
 .light .copywrite p {

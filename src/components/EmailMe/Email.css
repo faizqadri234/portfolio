@@ -73,12 +73,12 @@
 }
 .contact-info {
   display: flex;
-  cursor: pointer;
+  /* cursor: pointer; */
   align-items: center;
   margin-bottom: 10px;
   margin-right: 10px;
   border-radius: 10px;
-  cursor: pointer;
+  /* cursor: pointer; */
   padding: 10px 0px 0px 10px;
 }
 

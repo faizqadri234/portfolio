@@ -70,20 +70,20 @@ const Email = (e) => {
     {
       id: 'alsdkfj3234',
       icon: 'bx bx-phone',
-      contact_name: 'Call Me',
+      contact_name: 'Phone Number',
       contact_info: '+923244381861'
     },
     {
       id: '23423fsdgf',
       icon: 'bx bx-envelope',
-      contact_name: 'Email Me',
+      contact_name: 'Email ID',
       contact_info: 'faizqadri234@gmail.com'
     },
     {
       id: '23423asdkfjlfsdgf',
       icon: 'fa fa-map-marker',
       contact_name: 'Location',
-      contact_info: 'Lahore'
+      contact_info: 'Baghbanpura, Lahore'
     },
   ]
 
