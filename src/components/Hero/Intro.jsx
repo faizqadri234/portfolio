@@ -50,7 +50,7 @@ const Intro = () => {
     setHomeDetails(homeData);
     setContact2Details(conta);
 
-    document.title = title_name;
+    document.title = 'Muhammad Faiz';
     // console.log(conta);
   }, [homeDetails, homeData, contacts1Details, conta, title_name]);
   if (isFetching) return "loading";

@@ -129,6 +129,7 @@ const Email = (e) => {
               <div className="col-md-12 mb-3 hire-me-title"></div>
               <div className="col-md-6 ">
                 <input
+                  required
                   type="text"
                   name="user_name"
                   id=""
@@ -137,6 +138,7 @@ const Email = (e) => {
               </div>
               <div className="col-md-6 ">
                 <input
+                  required
                   type="email"
                   name="user_email"
                   id=""
@@ -145,6 +147,7 @@ const Email = (e) => {
               </div>
               <div className="col-md-12">
                 <input
+                  required
                   type="text"
                   name="subject"
                   id=""
@@ -153,6 +156,7 @@ const Email = (e) => {
               </div>
               <div className="col-md-12 mb-2">
                 <textarea
+                  required
                   name="message"
                   id=""
                   cols="60"
