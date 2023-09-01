@@ -74,13 +74,13 @@ const AboutMe = () => {
                   <br />
                   <div className="itscv">
                     <a
-                      href="https://drive.google.com/file/d/19QbLKhScxhW5qa1GsqIfi5vIw8-UigyW/view"
-                      download="RESUME.pdf"
+                      href={`${img_300}19QbLKhScxhW5qa1GsqIfi5vIw8-UigyW`}
+                      download
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <button className="download-cv">
-                        Download Cv <i class="bx bx-download"></i>
+                        Check My Cv <i class="bx bx-download"></i>
                       </button>
                     </a>
                   </div>
