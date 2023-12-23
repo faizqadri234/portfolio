@@ -13,22 +13,9 @@ const AboutData = [
     description_one: "As a skilled and experienced React Native developer, I bring a strong proficiency in creating cross-platform mobile applications that deliver exceptional user experiences. My expertise lies in architecting robust and scalable React Native applications, utilizing best practices and industry standards. I am proficient in leveraging the React Native framework to build intuitive user interfaces. In addition to my technical skills, I possess excellent problem-solving abilities and a passion for staying up-to-date with the latest trends and advancements in mobile app development"
   }
 ]
-
+//https://drive.google.com/file/d/11ck8ZUOPYFAgOaKKaHs-fOL3gxCT8bEy/view?usp=sharing
 const AboutMe = () => {
-  const { data: aboutData, isFetching } = useGetAboutMeQuery();
-  const [aboutMe, setAboutMe] = useState(aboutData);
   const img_300 = "https://drive.google.com/uc?id=";
-
-  const { data: conta2 } = useGetHomeDetailsQuery();
-  const [contacts1Details, setContact2Details] = useState(conta2);
-  const cv = contacts1Details && contacts1Details.map((data1) => data1.cv_link);
-  console.log(cv);
-  console.log(conta2);
-
-  useEffect(() => {
-    setAboutMe(aboutData);
-    setContact2Details(conta2);
-  }, [aboutData, conta2]);
 
   return (
     <>
@@ -74,7 +61,7 @@ const AboutMe = () => {
                   <br />
                   <div className="itscv">
                     <a
-                      href={`${img_300}19QbLKhScxhW5qa1GsqIfi5vIw8-UigyW`}
+                      href={`${img_300}11ck8ZUOPYFAgOaKKaHs-fOL3gxCT8bEy`}
                       download
                       target="_blank"
                       rel="noopener noreferrer"

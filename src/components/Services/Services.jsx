@@ -1,6 +1,4 @@
 import "./Services.css";
-import { useGetServicesQuery } from "../../Api/api";
-import { useEffect, useState } from "react";
 
 const ServiceData = [
   {
@@ -34,15 +32,6 @@ const ServiceData = [
 ]
 
 const Services = () => {
-  const { data: services, isFetching } = useGetServicesQuery();
-  const [servicesDetails, setServicesDetails] = useState(services);
-  const img_300 = "http://drive.google.com/uc?id=";
-
-  useEffect(() => {
-    setServicesDetails(services);
-    console.log(servicesDetails);
-  }, [servicesDetails, services]);
-  if (isFetching) return "loading";
 
   return (
     <>

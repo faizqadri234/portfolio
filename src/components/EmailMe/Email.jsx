@@ -1,9 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import "./Email.css";
-import { useGetContactsQuery } from "../../Api/api";
 import emailjs from "@emailjs/browser";
 import Snackbar from '@mui/material/Snackbar';
-import MuiAlert, { AlertProps } from '@mui/material/Alert';
+import MuiAlert from '@mui/material/Alert';
 
 const Alert = React.forwardRef(function Alert(
   props,
@@ -57,21 +56,13 @@ const Email = (e) => {
         }
       );
   };
-  const { data: contacts, isFetching } = useGetContactsQuery();
-
-  const [contactsDetails, setContactDetails] = useState(contacts);
-  // const img_300 = "http://127.0.0.1:8000";
-  useEffect(() => {
-    setContactDetails(contacts);
-  }, [contactsDetails, contacts]);
-  if (isFetching) return "loading";
 
   const contactData = [
     {
       id: 'alsdkfj3234',
       icon: 'bx bx-phone',
       contact_name: 'Phone Number',
-      contact_info: '+923244381861'
+      contact_info: '+923244381861 || +923554644404'
     },
     {
       id: '23423fsdgf',

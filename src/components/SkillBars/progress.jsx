@@ -27,15 +27,6 @@ if (nav.length) {
 }
 
 const Progress = () => {
-  const { data: langIcons, isFetching } = useGetLanguagesIconsQuery();
-
-  const [icons, setIcons] = useState(langIcons);
-
-  useEffect(() => {
-    setIcons(langIcons);
-  }, [langIcons]);
-
-  if (isFetching) return "loading";
 
   const responsive = {
     0: {

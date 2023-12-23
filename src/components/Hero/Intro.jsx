@@ -1,9 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import decor3 from "../../images/decoration/Group-31.png";
-import decor4 from "../../images/decoration/Path-25.png";
 import "./Intro.css";
-import { useGetHomeDetailsQuery } from "../../Api/api";
-import { useGetSocialMediaQuery } from "../../Api/api";
 
 const IntroData = [
   {
@@ -38,22 +35,17 @@ const SocialData = [
 ]
 
 const Intro = () => {
-  const { data: conta } = useGetSocialMediaQuery();
 
-  const { data: homeData, isFetching } = useGetHomeDetailsQuery();
-  const [homeDetails, setHomeDetails] = useState(homeData);
-  const [contacts1Details, setContact2Details] = useState(conta);
-  const img_300 = "http://drive.google.com/uc?id=";
-  const title_name = homeDetails && homeDetails.map((detail2) => detail2.name);
+  // const [isFetching, setIsFetching] = useState(true);
 
   useEffect(() => {
-    setHomeDetails(homeData);
-    setContact2Details(conta);
+    // setTimeout(() => {
+    //   setIsFetching(false)
+    // }, 3000)
 
     document.title = 'Muhammad Faiz';
-    // console.log(conta);
-  }, [homeDetails, homeData, contacts1Details, conta, title_name]);
-  if (isFetching) return "loading";
+  }, []);
+  // if (isFetching) return "loading";
 
   return (
     <>

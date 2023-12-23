@@ -1,17 +1,7 @@
 import "./Footer.css";
 import Main from "./scrollTop";
-import { useGetSocialMediaQuery } from "../../Api/api";
-import { useEffect, useState } from "react";
+
 const Footer = () => {
-  const { data: social, isFetching } = useGetSocialMediaQuery();
-  const [socialDetails, setSocialDetails] = useState(social);
-
-  useEffect(() => {
-    setSocialDetails(social);
-
-    // console.log(socialDetails);
-  }, [socialDetails, social]);
-  if (isFetching) return "loading";
 
   return (
     <>
