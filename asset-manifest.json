@@ -1,15 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.6c309f13.css",
-    "main.js": "/static/js/main.24cae2cc.js",
+    "main.js": "/static/js/main.7a97553b.js",
     "static/media/background.png": "/static/media/background.78f65f0d57d328c7311a.png",
+    "static/media/mood.png": "/static/media/mood.4fb7b674e2abe196e704.png",
+    "static/media/wyzepay.png": "/static/media/wyzepay.3405d4aa0939ee320dae.png",
+    "static/media/vassla.png": "/static/media/vassla.a1c0dfafdc65ba66a2ec.png",
+    "static/media/Programmer-pana.png": "/static/media/Programmer-pana.c99fa9b3cbf0b041dacf.png",
+    "static/media/kamaee.jpg": "/static/media/kamaee.0be712666a77d0fbda22.jpg",
+    "static/media/ahlsell.jpg": "/static/media/ahlsell.9ea0ff2ddac455474ebb.jpg",
+    "static/media/dometic.jpg": "/static/media/dometic.0f93609fa3429b6c7dbc.jpg",
+    "static/media/messaging.jpg": "/static/media/messaging.cbe2d81e655ea104c054.jpg",
+    "static/media/cicd.png": "/static/media/cicd.07b28cffd41e7c306fe1.png",
+    "static/media/intro.png": "/static/media/intro.895db277d646e0a9467b.png",
+    "static/media/web.png": "/static/media/web.eb760da3d6ef53bca567.png",
+    "static/media/api.png": "/static/media/api.3359e7f20b20b1164fe5.png",
     "static/media/dots.png": "/static/media/dots.35f111eb09e71c456e61.png",
     "index.html": "/index.html",
     "main.6c309f13.css.map": "/static/css/main.6c309f13.css.map",
-    "main.24cae2cc.js.map": "/static/js/main.24cae2cc.js.map"
+    "main.7a97553b.js.map": "/static/js/main.7a97553b.js.map"
   },
   "entrypoints": [
     "static/css/main.6c309f13.css",
-    "static/js/main.24cae2cc.js"
+    "static/js/main.7a97553b.js"
   ]
 }
