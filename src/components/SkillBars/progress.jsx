@@ -136,7 +136,7 @@ const Progress = () => {
                 disableButtonsControls
                 disableDotsControls
                 mouseTracking
-                autoPlayInterval={1000}
+                autoPlayInterval={700}
                 items={items}
                 responsive={responsive}
               />

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import decor3 from "../../images/decoration/Group-31.png";
 import "./Intro.css";
+import thumbnail from '../../images/intro.png'
 
 const IntroData = [
   {
@@ -138,11 +139,12 @@ const Intro = () => {
                     {/* <img
                       className="intro-img"
                       src="https://drive.google.com/uc?id=1iyVyaGyw5HniEugxd1-qZ54rpFpn2UTc"
+                      https://drive.google.com/file/d/1K-C1IVFoMla-nTMWr0QRIqARKW4b6OLU/view?usp=sharing
                       alt=""
                     /> */}
                     <img
                       className="intro-img"
-                      src={`http://drive.google.com/uc?id=1iyVyaGyw5HniEugxd1-qZ54rpFpn2UTc`}
+                      src={thumbnail}
                       alt=""
                     />
                   </div>

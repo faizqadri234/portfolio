@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import decor1 from "../../images/decoration/dots-1.png";
 import reactagle from "../../images/decoration/Rectangle-7.png";
 import shady from "../../images/decoration/dots.png";
+import mail from '../../images/Programmer-pana.png'
 
 const AboutData = [
   {
@@ -39,7 +40,7 @@ const AboutMe = () => {
                   className=" col-lg-6 col-md-5 col-sm-12 about-img"
                   data-aos="fade-up-right"
                 >
-                  <img src={`https://drive.google.com/uc?id=1B97-7cbBT2HhLUqHh5bvfckaGLsudQmj`} alt="" />
+                  <img src={mail} alt="" />
                 </div>
                 <div
                   className=" col-lg-6 col-md-7  col-sm-12 about_myinfo"

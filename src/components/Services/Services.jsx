@@ -1,4 +1,7 @@
 import "./Services.css";
+import api from '../../images/api.png'
+import web from '../../images/web.png'
+import cicd from '../../images/cicd.png'
 
 const ServiceData = [
   {
@@ -12,21 +15,21 @@ const ServiceData = [
     id: 'lshkd2sdf342',
     service_name: 'Web Development',
     service_description: "With expertise in React and Next.js, I build engaging websites that combine dynamic functionality with seamless navigation for an exceptional user experience",
-    iconImage: 'http://drive.google.com/uc?id=1Xou8hPivlKoRgGi5p68iSQ90cU0Zozq6',
+    iconImage: web,
     bgIcon: 'fa fa-pen'
   },
   {
     id: 'lshkxcvxcd2342',
     service_name: 'Api Integration',
     service_description: "I offer Api integration service in existing applications or in software i create from scratch",
-    iconImage: 'http://drive.google.com/uc?id=1KAJwHOx7L9gmvoe0VX8PTl1Y2vqG6etc',
+    iconImage: api,
     bgIcon: 'fa fa-snowflake-o'
   },
   {
     id: 'lshkd23432342',
     service_name: 'CI/CD',
     service_description: "I am well-versed in implementing robust CI/CD pipelines, automating the build, testing, and deployment processes to ensure consistent and efficient software delivery",
-    iconImage: 'http://drive.google.com/uc?id=1_5eSenCCVHI4Jv-sj5GV2pk5YOTxEE0K',
+    iconImage: cicd,
     bgIcon: 'fa fa-cubes'
   }
 ]

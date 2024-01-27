@@ -5,6 +5,13 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import dometic from '../../images/applications/dometic.jpg'
+import ahlsell from '../../images/applications/ahlsell.jpg'
+import mood from '../../images/applications/mood.png'
+import wyzepay from '../../images/applications/wyzepay.png'
+import vassla from '../../images/applications/vassla.png'
+import messaging from '../../images/applications/messaging.jpg'
+import kamaee from '../../images/applications/kamaee.jpg'
 
 const Projects = () => {
   const img_300 = "https://drive.google.com/uc?id=";
@@ -47,49 +54,49 @@ const Projects = () => {
 
   const ProjectsData = [
     {
-      about_avatar: '14aD7h0hG_sPL-n168i-qdOgoEkfRxSFT',
+      about_avatar: dometic,
       language_used: 'React Native | Typescript | BLE',
       Project_title: 'Dometic Climate',
       Project_info: "This app serves as a bridge between various devices manufactured by Dometic. By leveraging Bluetooth technology, we enable seamless communication between the app and the devices. Users can conveniently manage and control these devices through the intuitive interface of the application.",
       demo_link: 'https://apps.apple.com/gb/app/dometic-climate/id1660906196'
     },
     {
-      about_avatar: '1t3TUoQ7tiUtLxLxSNvHFPxg6y9DB6Dgh',
+      about_avatar: ahlsell,
       language_used: 'React Native | Typescript | Google Map',
       Project_title: 'Ahlsell',
       Project_info: "This application focuses on providing a seamless shopping experience for electronic products. The app encompasses a wide range of products, including electrical, mechanical, and household items, among others. And the organization operates stores in Sweden, Finland, and Norway.",
       demo_link: 'https://apps.apple.com/se/app/ahlsell-mobilbutik/id1617272826'
     },
     {
-      about_avatar: '1an4yeH9VYKapedzESKFA0PaIlLP8FohI',
+      about_avatar: vassla,
       language_used: 'React Native | Typescript | BLE | google map',
       Project_title: 'Vassla',
       Project_info: " The purpose of this application is to offer vehicle rental services, where the rent is calculated based on the duration of usage. To ensure efficient management, the admin can track the location of each vehicle on the map in real-time. App also includes payment gateway so that users can pay through their card",
       demo_link: 'https://apps.apple.com/tt/app/v%C3%A4ssla-bike/id1515299054'
     },
     {
-      about_avatar: '1cAOpTPcfNX6PhD_iB4Y9it-TdiOAMztq',
+      about_avatar: messaging,
       language_used: 'React Native | Typescript',
       Project_title: 'Trusted Messaging',
       Project_info: "This application primarily focuses on running campaigns for messages and calls. Users can create campaigns and specify whether it will be a message or call campaign. For call campaigns, users can include a voice message, while for message campaigns, they can provide a text message.",
       demo_link: 'https://apps.apple.com/np/app/trusted-messaging-titan/id1587746441'
     },
     {
-      about_avatar: '1A8MTrDG2qAVV7oBrx4r_CNkHJdqfnX5j',
+      about_avatar: kamaee,
       language_used: 'React Native | Typescript | Firebase',
       Project_title: 'Kamaee',
       Project_info: "This application is similar to the popular platform Fiverr. However, the key distinction lies in the focus of the services offered. While Fiverr primarily caters to IT-related tasks, Kamaee is specifically designed for non-IT workers such as electricians, plumbers etc but it also tackles IT workers.",
       demo_link: 'https://kamaee.pk/'
     },
     {
-      about_avatar: '1VJVgg0j1ZWg8tJQyLAddEm9SsH9QnQHQ',
+      about_avatar: wyzepay,
       language_used: 'React Native | Typescript | Blockchain',
       Project_title: 'Wyzepay',
       Project_info: "This is a wallet app where users buy merchant coins and can use these to make purchases and can with others. The goal is to enable merchants to offer promotions and bonuses to users who buy their coins. Users prepay at their chosen retailer. The more they prepay, the greater the rewards offered",
       demo_link: 'https://apps.apple.com/gb/app/wyzepay/id1523520498'
     },
     {
-      about_avatar: '1oreLeWnqQiy1nI8AfqsOOQzrDRDt3cvV',
+      about_avatar: mood,
       language_used: 'React Native | Typescript | Firebase',
       Project_title: 'Mood Social',
       Project_info: "Mood Social gives you a full overview of things to do in your city. Find exciting activities, places and people based on what you are in the Mood for and experience them together. Match with people & friends who are in the same mood as you based on activities in your area",
@@ -111,7 +118,7 @@ const Projects = () => {
               <div className="project" data-aos="fade-up">
                 <div className="project-img">
                   <img
-                    src={`${img_300}${details.about_avatar}`}
+                    src={details.about_avatar}
                     alt=""
                     className="work-img"
                   />
